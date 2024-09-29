@@ -259,6 +259,8 @@ git clone --depth 1 https://github.com/kiddin9/luci-app-dnsfilter.git package/ne
 cp -rf ../OpenWrt-Add/luci-app-dnsproxy ./package/new/luci-app-dnsproxy
 # Edge 主题
 git clone -b master --depth 1 https://github.com/kiddin9/luci-theme-edge.git package/new/luci-theme-edge
+# easytier
+git clone -b master --depth 1 https://github.com/EasyTier/luci-app-easytier.git package/new/luci-app-easytier
 # FRP 内网穿透
 rm -rf ./feeds/luci/applications/luci-app-frps
 rm -rf ./feeds/luci/applications/luci-app-frpc
